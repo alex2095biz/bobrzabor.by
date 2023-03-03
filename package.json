@@ -1,0 +1,24 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex2095biz/bobrzabor.by.git"
+  },
+  "author": "alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex2095biz/bobrzabor.by/issues"
+  },
+  "homepage": "https://github.com/alex2095biz/bobrzabor.by#readme",
+  "devDependencies": {
+    "del": "^6.1.1",
+    "gulp": "^4.0.2"
+  }
+}
