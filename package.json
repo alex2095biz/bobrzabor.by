@@ -1,7 +1,6 @@
 {
   "name": "gulp",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -20,5 +19,6 @@
   "devDependencies": {
     "del": "^6.1.1",
     "gulp": "^4.0.2"
-  }
+  },
+  "description": ""
 }
