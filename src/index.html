@@ -4,24 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/src/css/style.css" />
 
-    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/src/css/fonts.css" />
 
     <title>Заборы в Бобруйске</title>
   </head>
   <body>
-    @@include('html/menu.html',{})
+    <header>
+      <nav>
+        <div class="container">
+          <div class="menu">
+            <div class="menu__elem1">
+              <div class="menu__logo">BOBRZABOR</div>
+              <div class="menu__descr">
+                Заборы и ограждения всех<br />
+                видов и цветов в Бобруйске
+              </div>
+            </div>
+            <div class="menu__elem2">
+              <a href="#" class="menu__button">ПЕРЕЗВОНИТЕ МНЕ</a>
+
+              <div class="menu__nav">
+                <a href="">Статьи</a>
+                <a href="">Услуги</a>
+                <a href="">Контакты</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <div class="intro">
       <div class="intro__slider">
         <img
           class="intro__img intro__img-active"
-          src="/img/intro1.jpg"
+          src="img/intro1.jpg"
           alt="intro"
         />
-        <img class="intro__img" src="/img/intro2.jpg" alt="intro" />
-        <img class="intro__img" src="/img/intro3.jpg" alt="intro" />
+        <img class="intro__img" src="img/intro2.jpg" alt="intro" />
+        <img class="intro__img" src="img/intro3.jpg" alt="intro" />
       </div>
       <div class="intro__descr">
         Металлопрофильные ЗАБОРЫ <br />красота и безопасность
@@ -30,11 +53,11 @@
       </div>
       <div class="intro__phones">
         <span class="intro__phone">
-          <img class="intro__ico" src="/ico/phone_icon.png" alt="phone" />
+          <img class="intro__ico" src="img/phone_icon.png" alt="phone" />
           +375 29 5-824-824</span
         >
         <span class="intro__phone">
-          <img class="intro__ico" src="/ico/phone_icon.png" alt="phone" />
+          <img class="intro__ico" src="img/phone_icon.png" alt="phone" />
           +375 29 66-89-450
         </span>
       </div>
@@ -45,7 +68,7 @@
           <div class="catalog__wrapper-left scroll-left">
             <img
               class="catalog__img"
-              src="/img/metalicheskij_zabor.jpg"
+              src="img/metalicheskij_zabor.jpg"
               alt="metllprofil"
             />
 
@@ -88,7 +111,7 @@
           <div class="catalog__wrapper-right scroll-right">
             <img
               class="catalog__img"
-              src="/img/betonnyi_zabor.jpg"
+              src="img/betonnyi_zabor.jpg"
               alt="betonni_zabor"
             />
 
@@ -218,7 +241,39 @@
         </div>
       </div>
     </div>
-    @@include('html/footer.html',{})
-    <script src="/js/script.js"></script>
+    <footer>
+      <nav>
+        <div class="container">
+          <div class="menu menu__footer">
+            <div class="menu__elem1">
+              <div class="menu__logo">BOBRZABOR</div>
+              <div class="menu__descr">
+                Заборы и ограждения всех<br />
+                видов и цветов в Бобруйске
+              </div>
+            </div>
+            <div class="menu__elem2">
+              <a href="#" class="menu__button">ПЕРЕЗВОНИТЕ МНЕ</a>
+
+              <div class="menu__nav">
+                <a href="">Статьи</a>
+                <a href="">Услуги</a>
+                <a href="">Контакты</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__subDescr">
+            <div class="footer__subDescr--creatoe">
+              © 2018 Заборы. Все права защищены<br />
+              Создание сайта
+              <a href="#">artbrain.by</a>
+            </div>
+            <div class="footer__subDescr--phone">+375 29 5-824-824</div>
+          </div>
+        </div>
+      </nav>
+    </footer>
+
+    <script src="/src/js/script.js"></script>
   </body>
 </html>

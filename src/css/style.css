@@ -330,7 +330,7 @@ nav {
 /* free measurin */
 
 .freeMeasurin {
-  background: url(/img/free_measurin.jpg);
+  background: url(../img/free_measurin.jpg);
   background-position: center;
   padding: 50px 0;
   background-size: cover;
@@ -368,22 +368,22 @@ nav {
 }
 
 .cards__label--1 {
-  background: url(/img/cards/1.gif);
+  background: url(../img/cards_1.gif);
 }
 .cards__label--2 {
-  background: url(/img/cards/1.gif);
+  background: url(../img/cards_1.gif);
 }
 .cards__label--3 {
-  background: url(/img/cards/3.jpg);
+  background: url(../img/cards_3.jpg);
 }
 .cards__label--4 {
-  background: url(/img/cards/4.jpg);
+  background: url(../img/cards_4.jpg);
 }
 .cards__label--5 {
-  background: url(/img/cards/5.jpg);
+  background: url(../img/cards_5.jpg);
 }
 .cards__label--6 {
-  background: url(/img/cards/6.jpg);
+  background: url(../img/cards_6.jpg);
 }
 
 .cards__label {
